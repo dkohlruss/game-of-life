@@ -189,10 +189,12 @@ class App extends Component {
   render() {
     return (
       <div className="app">
+        <h1>Game of Life</h1>
         {this.state.cells}
         <Play onActivate={(button) => this.playButton(button)} />
         <button onClick={() => this.clearBoard()}>Clear</button>
         {this.generations}
+        <p>Created for FreeCodeCamp.  <a href="https://github.com/dkohlruss/game-of-life">Sourcecode available on github.</a></p>
       </div>
 
 

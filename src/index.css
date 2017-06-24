@@ -11,8 +11,8 @@ body {
 }
 
 .cell {
-  width: 39px;
-  height: 39px;
+  width: 19px;
+  height: 19px;
   background: #EEEEEE;
   border-right: solid black 1px;
   border-bottom: solid black 1px;
